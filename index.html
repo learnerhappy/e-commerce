@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce</title>
+  <!--bootstrap link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    ">
+  <!--google font-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,800&family=Poppins:ital,wght@0,300;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!--font awsome-->
+  <script src="https://kit.fontawesome.com/6276d68775.js" crossorigin="anonymous"></script>
+  <!--css link-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--navbar section-->
+  <nav class="navbar navbar-expand-lg bg-dark-subtle sticky-lg-top">
+    <div class="container p-3">
+      <a class="navbar-brand fs-5 text-uppercase" href="#">
+        <img src="img/logo.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+        Unique gallery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse fs-6" id="navbarNavAltMarkup ">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link text-capitalize " href="#">Home</a>
+          <a class="nav-link text-capitalize " href="#">product</a>
+          <a class="nav-link text-capitalize" href="#">services</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--main section-->
+  <main class="bg-body-secondary ">
+    <div id="carouselExampleCaptions" class="carousel slide w-75 h-auto  m-auto  rounded shadow-sm">
+      <div class="carousel-indicators m-5">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner rounded ">
+        <div class="carousel-item active m-4 rounded">
+          <div class="carousel-caption  d-none d-md-block ">
+            <h1 class="fs-1 text-light text-uppercase row-col-lg-12 row-col-md-12 row-col-sm-12">Unique product</h1>
+          </div>
+          <img src="img/pic3.jpg" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block m-4">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item m-4 rounded">
+          <div class="carousel-caption  d-none d-md-block ">
+            <h1 class="fs-1 text-light text-uppercase">Unique product</h1>
+          </div>
+          <img src="img/pic1.png" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block m-4">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item m-4 rounded">
+          <div class="carousel-caption  d-none d-md-block ">
+            <h1 class="fs-1 text-light text-uppercase">Unique product</h1>
+          </div>
+          <img src="img/pic2.png" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block m-4">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <!--product section-->
+  <section class="container mt-5 mb-5 w-100 h-auto ">
+    <div class="product">
+      <h2 class=" text-transform: capitalize fs-1 text-secondary row justify-content-center
+      row-col-lg-12 row-col-md-12 row-col-sm-12 "> Unique
+        product</h2>
+      <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 g-4 w-100 mt-5  rounded-2 ms-lg-5 me-lg-5 shadow ">
+
+        <div class="col-12 col-md-6 col-sm-12">
+          <div class="card ">
+            <img src="img/pic4.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-uppercase text-secondary">lwproe</h3>
+              <p class="card-text">
+                Laptop 'leptop' Wholesale Gaming Laptop Computer.</p>
+              <p class="card-text text-secondary-emphasis mt-2">$80</p>
+              <p class="card-text mt-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <a href="#" class=" rounded-pill px-2 py-1 bg-danger text-decoration-none text-light">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12  col-md-6 col-sm-12">
+          <div class="card ">
+            <img src="img/pic5.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-uppercase text-secondary">lwproe</h3>
+              <p class="card-text">
+                Laptop 'leptop' Wholesale Gaming Laptop Computer.</p>
+              <p class="card-text text-secondary-emphasis mt-2">$80</p>
+              <p class="card-text mt-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <a href="#" class=" rounded-pill px-2 py-1 bg-danger text-decoration-none text-light">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12  col-md-6 col-sm-12">
+          <div class="card ">
+            <img src="img/pic8.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-uppercase text-secondary">lwproe</h3>
+              <p class="card-text">
+                Laptop 'leptop' Wholesale Gaming Laptop Computer.</p>
+              <p class="card-text text-secondary-emphasis mt-2">$80</p>
+              <p class="card-text mt-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <a href="#" class=" rounded-pill px-2 py-1 bg-danger text-decoration-none text-light">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12  col-md-6 col-sm-12">
+          <div class="card ">
+            <img src="img/pic8.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-uppercase text-secondary">lwproe</h3>
+              <p class="card-text">
+                Laptop 'leptop' Wholesale Gaming Laptop Computer.</p>
+              <p class="card-text text-secondary-emphasis mt-2">$80</p>
+              <p class="card-text mt-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <a href="#" class=" rounded-pill px-2 py-1 bg-danger text-decoration-none text-light">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12  col-md-6 col-sm-12">
+          <div class="card ">
+            <img src="img/pic7.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-uppercase text-secondary">lwproe</h3>
+              <p class="card-text">
+                Laptop 'leptop' Wholesale Gaming Laptop Computer.</p>
+              <p class="card-text text-secondary-emphasis mt-2">$80</p>
+              <p class="card-text mt-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <a href="#" class=" rounded-pill px-2 py-1 bg-danger text-decoration-none text-light">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mb-4  col-md-6 col-sm-12">
+          <div class="card ">
+            <img src="img/pic6.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h3 class="card-title text-uppercase text-secondary">lwproe</h3>
+              <p class="card-text">
+                Laptop 'leptop' Wholesale Gaming Laptop Computer.</p>
+              <p class="card-text text-secondary-emphasis mt-2">$80</p>
+              <p class="card-text mt-2">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <a href="#" class=" rounded-pill px-2 py-1 bg-danger text-decoration-none text-light">Contact</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- footer -->
+
+
+  <footer class="container-full bg-dark text-white p-5 ">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-9 col-md-12 col-12">
+          <div class="footer-header">
+            <a class="text-white text-decoration-none p-2" href="#">Download Now</a>
+            <a class="text-white text-decoration-none p-2" href="#">License</a>
+          </div>
+          <div class=" d-flex ">
+
+            <a class="footer-link text-decoration-none p-2 text-white" href="#">About</a>
+
+            <a class="footer-link text-decoration-none p-2 text-white" href="#">Features</a>
+
+            <a class="footer-link text-decoration-none p-2 text-white" href="#">Pricing</a>
+
+            <a class="footer-link text-decoration-none p-2 text-white" href="#">Privacy Policy</a>
+          </div>
+          <p class="text-white p-2">&COPY; 2023 Product. All rights reserved</p>
+        </div>
+        <div class="col-lg-3 col-md-12 col-12 ">
+          <p class="mb-3 ps-5">Get the App</p>
+          <div class="icon d-flex align-items-center justify-content-center border border-1 rounded mb-3 w-50">
+            <i class="fa fa-apple fs-3 p-2 text-white"></i>
+            <span>
+              <a class="text-light p-4 text-decoration-none text-capitalize">download </a>
+              <p class="ps-3">App store</p>
+            </span>
+          </div>
+
+          <div class="icon d-flex align-items-center justify-content-center border border-1 rounded w-50">
+            <i class="fa fa-instagram fs-3 p-2"></i>
+
+            <span>
+              <a class="text-light p-4 text-decoration-none text-capitalize">GIT IT ON</a>
+              <p class="ps-3">Instragram</p>
+            </span>
+
+          </div>
+        </div>
+      </div>
+
+  </footer>
+
+
+  <nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+      Bootstrap
+    </a>
+  </div>
+</nav>
+
+  <!--js link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

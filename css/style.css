@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.carousel-caption h1{
+margin-bottom: 77%;
+}
+.navbar-nav a{
+    color: navy;
+    font-family: 'Merriweather', serif;
+
+}
+.navbar-brand {
+    color: navy;
+    font-family: 'Merienda', cursive;
+}
+
